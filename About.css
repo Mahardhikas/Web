@@ -1,0 +1,137 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    color: #CBE4DE;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color: #CBE4DE;
+}
+
+.menu {
+   float: right; 
+}
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #2E4F4F;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float:left;
+}
+
+nav ul li a{
+    color: #CBE4DE;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+.about {
+    width: 100%;
+    padding: 100px;
+    background-color: #CBE4DE;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: #44635c;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color: #44635c;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: #44635c;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+button :hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    transform: scale(2,2);
+    transition: 0.3s;
+}
+
+footer{
+    background-color:#2E4F4F;
+	color: #CBE4DE;
+	text-align: center;
+	padding: 30px;
+}
